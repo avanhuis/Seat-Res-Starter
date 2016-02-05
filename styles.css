@@ -1,0 +1,20 @@
+.seat-chart {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.available {
+  background-color: green;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+}
+
+.reserved {
+  background-color: red;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+}
