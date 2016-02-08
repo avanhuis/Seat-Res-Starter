@@ -35,7 +35,7 @@
 
 .reservedkey  {
   background-color: #801515;
-  width: 10%;
+  width: 20%;
   margin: auto;
   min-height: 50px;
   display: inline-block;
@@ -43,7 +43,7 @@
 
 .availablekey {
   background-color: #0E5540;
-  width: 10%;
+  width: 20%;
   margin: auto;
   min-height: 50px;
   display: inline-block;
@@ -51,6 +51,7 @@
 
 h3 {
   color: white;
+  font-size: 1.5em;
 }
 
 #footer
@@ -58,4 +59,14 @@ h3 {
     border-style: solid;
     border-color: #0E5540;
 
+}
+
+@media (max-width: 500px) {
+  .reservedkey {
+    width: 40%;
+  }
+
+  .availablekey {
+    width: 40%;
+  }
 }
