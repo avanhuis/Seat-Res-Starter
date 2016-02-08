@@ -1,3 +1,14 @@
+
+  #header
+  {
+   
+    border-style: solid;
+    border-color: #0E5540;
+
+}
+  
+
+
 .seat-chart {
   width: 90%;
   margin: 0 auto;
@@ -21,4 +32,11 @@
 
 .available:hover {
   background-color: #597814;
+}
+
+#footer
+   {
+    border-style: solid;
+    border-color: #0E5540;
+
 }
