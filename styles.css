@@ -1,14 +1,9 @@
-
-  #header
+#header
   {
-   
     border-style: solid;
     border-color: #0E5540;
-
 }
   
-
-
 .seat-chart {
   width: 90%;
   margin: 0 auto;
@@ -32,6 +27,30 @@
 
 .available:hover {
   background-color: #597814;
+}
+
+.reservationkey {
+  padding-bottom: 30px;
+}
+
+.reservedkey  {
+  background-color: #801515;
+  width: 10%;
+  margin: auto;
+  min-height: 50px;
+  display: inline-block;
+}
+
+.availablekey {
+  background-color: #0E5540;
+  width: 10%;
+  margin: auto;
+  min-height: 50px;
+  display: inline-block;
+}
+
+h3 {
+  color: white;
 }
 
 #footer
