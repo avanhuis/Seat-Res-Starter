@@ -3,5 +3,6 @@ $('.seat').on('click', function(){
 });
 
 $('button').on('click', function(){
-	$(".pending").setClass("reserved");
+	$(".pending").addClass("reserved"); 
+	$("#Thankyou").text("Thankyou for your reservation");
 });
