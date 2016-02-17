@@ -21,4 +21,5 @@ $(function() {
 		$(".pending").addClass("reserved"); 
 		$("#Thankyou").text("Thankyou for your reservation " + firstname);
 	});
+
 });
