@@ -17,7 +17,8 @@ $(function() {
 	 });
 
 	 $('button').on('click', function(){
+	 	var firstName = $('#first_name').val();
 	 	$(".pending").addClass("reserved");
-	 	$("#Thankyou").text("Thankyou for your reservation");
+	 	$("#Thankyou").text("Thankyou for your reservation " + firstName);
 });
 });
