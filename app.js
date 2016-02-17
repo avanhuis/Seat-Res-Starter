@@ -1,10 +1,10 @@
-$(function(){
-$('.seat').on('click', function(){
-	$(this).toggleClass("pending");
-});
+$(function() {
+	$('.seat').on('click', function(){
+		$(this).toggleClass("pending");
+	});
 
-$('button').on('click', function(){
-	$(".pending").addClass("reserved");
-});
+	$('button').on('click', function(){
+		$(".pending").addClass("reserved");
+	});
 
 });
