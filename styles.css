@@ -9,7 +9,7 @@
 .seat {
   background-color: #0e5540;
   width: 14%;
-  margin: auto;
+  margin: 1px;
   min-height: 100px;
   display: inline-block;
 }
