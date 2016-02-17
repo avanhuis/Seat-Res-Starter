@@ -3,6 +3,5 @@ $('.seat').on('click', function(){
 });
 
 $('button').on('click', function(){
-
 	$(".pending").setClass("reserved");
 });
