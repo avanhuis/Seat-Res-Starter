@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+$('.seat').on('click', function(){
+	$(this).toggleClass("pending");
+});

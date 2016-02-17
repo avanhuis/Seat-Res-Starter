@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.available {
+.seat{
   background-color: #0E5540;
   width: 14%;
   margin: auto;
@@ -17,12 +17,12 @@
   display: inline-block;
 }
 
+.pending {
+  background-color: #597814;
+}
+
 .reserved {
   background-color: #801515;
-  width: 14%;
-  margin: auto;
-  min-height: 100px;
-  display: inline-block;
 }
 
 .available:hover {
