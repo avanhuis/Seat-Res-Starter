@@ -1,3 +1,3 @@
 $('.seat').on('click', function(){
-	$(this).addClass("pending");
+	$(this).toggleClass("pending");
 });
