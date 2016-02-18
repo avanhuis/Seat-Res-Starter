@@ -1,5 +1,6 @@
 $(function() {
 
+//Creates Seating Chart
 	function seatChart(elm, rows, cols) {
 		for(i = 0; i < rows; i++) {
 			elm.append("<div class='seat-chart'></div>");
@@ -11,6 +12,8 @@ $(function() {
 	};
 
 	seatChart($(".seat-chart"), 4, 6);
+
+//Changes Classes Based on Clicking Seats	
 
 	$('.seat').on('click', function(){
 		$(this).toggleClass("pending");
