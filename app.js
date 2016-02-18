@@ -22,7 +22,7 @@ $(function() {
 	$('button').on('click', function(){
 		var firstname = $('#firstname').val();
 		$(".pending").addClass("reserved"); 
-		$("#Thankyou").text("Thankyou for your reservation " + firstname);
+		$("#Thankyou").text("Thank you! for your reservation " + firstname);
 	});
 
 });
