@@ -6,6 +6,7 @@ $(function() {
 			elm.append("<div class='seat-chart'></div>");
 			for(j = 0; j <cols; j++) {
 				elm.append("<div class='seat'></div>");
+
 			};
 		};
 
@@ -22,7 +23,7 @@ $(function() {
 	$('button').on('click', function(){
 		var firstname = $('#firstname').val();
 		$(".pending").addClass("reserved"); 
-		$("#Thankyou").text("Thank you! for your reservation " + firstname);
+		$("#Thankyou").text("Thank you for your reservation " + firstname + "!");
 	});
 
 });

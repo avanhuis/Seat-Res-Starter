@@ -4,15 +4,19 @@
   padding 8px 0 8px 16px
   text-decoration none
 
-Screen indicator {
-width: 200px;
-margin:10px
-background-color: #f6f6f6;
-color: #adadad;
-text allign: center;
-padding:5px;
-border-radius 5px;
-}
+body
+  background-color #f6f6f6
+  color #adadad
+h1
+  margin-bottom 30px
+  padding-top 30px
+  padding-bottom 45px
+  background-color #801515
+  font-size 80px
+  text-align center
+  color white
+  font-family Ultra sans-serif
+
 .seat-chart
   width 90%
   margin 0 auto
@@ -20,9 +24,10 @@ border-radius 5px;
 .seat
   background-color #0E5540
   width 14%
-  margin auto
+  margin 3px
   min-height 100px
   display inline-block
+  border-radius 8px
 
 .pending
   background-color #597814
@@ -55,23 +60,27 @@ h3
   color white
   font-size 1.5em
 
-#footer
-  border-style solid
-  border-color #0E5540
+footer
+  background-color #0E5540
+  position fixed
+  bottom 0px
+  left 0px
+  width 100%
+
+label
+  display block
+  margin-top 20px
+button
+  background-color #801515
+  color white
+  margin-bottom 30px
 
 @media (max-width: 500px)
   .reservedkey
     width 40%
   .availablekey
     width 40%
-
-h1
-  margin-bottom 30px
-  padding-top 30px
-  padding-bottom 45px
-  background-color #801515
-  font-size 80px
-  text-align center
-  color white
-  font-family Ultra sans-serif
+  h1
+    font-size 1.5em
+    padding-bottom 30px
 

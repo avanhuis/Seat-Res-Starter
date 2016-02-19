@@ -4,6 +4,20 @@
   padding: 8px 0 8px 16px;
   text-decoration: none;
 }
+body {
+  background-color: #f6f6f6;
+  color: #adadad;
+}
+h1 {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background-color: #801515;
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+  font-family: Ultra sans-serif;
+}
 .seat-chart {
   width: 90%;
   margin: 0 auto;
@@ -11,9 +25,10 @@
 .seat {
   background-color: #0e5540;
   width: 14%;
-  margin: 1px;
+  margin: 3px;
   min-height: 100px;
   display: inline-block;
+  border-radius: 8px;
 }
 .pending {
   background-color: #597814;
@@ -45,9 +60,21 @@ h3 {
   color: #fff;
   font-size: 1.5em;
 }
-#footer {
-  border-style: solid;
-  border-color: #0e5540;
+footer {
+  background-color: #0e5540;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+label {
+  display: block;
+  margin-top: 20px;
+}
+button {
+  background-color: #801515;
+  color: #fff;
+  margin-bottom: 30px;
 }
 @media (max-width: 500px) {
   .reservedkey {
@@ -56,14 +83,8 @@ h3 {
   .availablekey {
     width: 40%;
   }
-}
-h1 {
-  margin-bottom: 30px;
-  padding-top: 30px;
-  padding-bottom: 45px;
-  background-color: #801515;
-  font-size: 80px;
-  text-align: center;
-  color: #fff;
-  font-family: Ultra sans-serif;
+  h1 {
+    font-size: 1.5em;
+    padding-bottom: 30px;
+  }
 }
