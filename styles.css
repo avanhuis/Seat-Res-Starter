@@ -4,14 +4,22 @@
   padding: 8px 0 8px 16px;
   text-decoration: none;
 }
+Screen indicator,
+width 200px,
+margin 10px,
+background-color #f6f6f6,
+color #adadad,
+text allign center,
+padding 5px,
+border-radius 5px,
 .seat-chart {
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 .seat {
   background-color: #0e5540;
   width: 14%;
-  margin: 1px;
+  margin: auto;
   min-height: 100px;
   display: inline-block;
 }
@@ -33,6 +41,7 @@
   margin: auto;
   min-height: 50px;
   display: inline-block;
+  padding-top: 20px;
 }
 .availablekey {
   background-color: #0e5540;
@@ -40,10 +49,12 @@
   margin: auto;
   min-height: 50px;
   display: inline-block;
+  padding-top: 20px;
 }
 h3 {
   color: #fff;
   font-size: 1.5em;
+  text-align: center;
 }
 #footer {
   border-style: solid;
@@ -58,7 +69,6 @@ h3 {
   }
 }
 h1 {
-  margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 45px;
   background-color: #801515;
@@ -66,4 +76,21 @@ h1 {
   text-align: center;
   color: #fff;
   font-family: Ultra sans-serif;
+}
+.description {
+  font-size: 20px;
+  border: solid;
+  padding: 10px;
+  margin: left 30px;
+  margin: right 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0e5540;
+}
+#header {
+  color: #fff;
 }
